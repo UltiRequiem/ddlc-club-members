@@ -34,11 +34,11 @@
         </p>
       {/if}
       <p>
-        Height : {`${doki.concept_height.inches}/${doki.concept_height.cm}cm`}
+        Height: {`${doki.concept_height.inches}/${doki.concept_height.cm}cm`}
       </p>
 
       <p>
-        Appears on: {`${doki.appears.join(", ")}.`}
+        Appears: {`${doki.appears.join(", ")}.`}
       </p>
 
       <p>
@@ -87,6 +87,7 @@
 
   .char_image {
     display: inline-block;
+    width: 80%;
     padding: 3%;
     border-radius: 30px;
     background-color: #e2d0e2;
