@@ -1,7 +1,12 @@
+<script>
+  const currentYear = new Date().getFullYear();
+  const date = currentYear >= 2022 ? '2022' : `2022-${currentYear}`;
+</script>
+
 <footer>
   <p>
     <a href="https://github.com/UltiRequiem"
-      >Eliaz Bobadilla (a.k.a UltiRequiem) {new Date().getFullYear()}</a
+      >Eliaz Bobadilla (a.k.a UltiRequiem) {date}</a
     >
   </p>
 </footer>

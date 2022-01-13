@@ -86,9 +86,9 @@
   }
 
   .char_image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d3d3d3;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 30px;
+    background-color: #e2d0e2;
   }
 </style>
