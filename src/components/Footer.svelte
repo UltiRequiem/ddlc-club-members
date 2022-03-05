@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   const currentYear = new Date().getFullYear();
   const date = currentYear >= 2022 ? "2022" : `2022-${currentYear}`;
 </script>
