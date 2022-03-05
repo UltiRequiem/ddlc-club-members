@@ -6,8 +6,7 @@
   let literatureClubMembers = [];
 
   onMount(async () => {
-    // Copy of "https://ddlcapi.herokuapp.com/characters", not working because of CORS
-    const response = await fetch(`${window.location.href}/data.json`);
+    const response = await fetch("https://ddlcapi.herokuapp.com/characters");
     literatureClubMembers = await response.json();
   });
 </script>
