@@ -17,5 +17,6 @@ jobs:
           node-version: "16"
           cache: "pnpm"
           cache-dependency-path: "**/pnpm-lock.yaml"
-      - run: pnpm install
-      - run: pnpm run check
+      - run: |
+          pnpm install
+          pnpm run check
