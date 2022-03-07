@@ -9,3 +9,7 @@ TODO
 - Svelte
 
 - TypeScript
+
+## License
+
+Licensed under the MIT License.
