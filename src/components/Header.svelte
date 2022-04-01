@@ -6,6 +6,7 @@
   h1 {
     color: brown;
   }
+
   header {
     background-color: #e6e6e6;
     padding: 10px;

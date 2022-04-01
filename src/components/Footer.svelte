@@ -16,13 +16,16 @@
     color: var(--theme-color);
     font-size: 17px;
   }
+
   footer {
     bottom: 0;
   }
+
   a {
     color: var(--theme-color);
     text-decoration: none;
   }
+
   a:hover {
     text-decoration: underline;
   }

@@ -1,8 +1,10 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import Footer from "./components/Footer.svelte";
-  import Header from "./components/Header.svelte";
+
+  import { Header, Footer } from "./components";
+
   let literatureClubMembers = [];
+
   onMount(async () => {
     const response = await fetch("https://ddlcapi.herokuapp.com/characters");
     literatureClubMembers = await response.json();
@@ -60,23 +62,28 @@
     background-color: #f2eee2;
     color: #0084f6;
   }
+
   :global(:root) {
     --theme-color: purple;
   }
+
   p {
     color: var(--theme-color);
     font-size: 22px;
   }
+
   main {
     margin: 2%;
     text-align: center;
   }
+
   .doki_container {
     border: 2px solid #0084f6;
     border-radius: 10px;
     margin-top: 2%;
     background-color: #d8bfd8;
   }
+
   .char_image {
     display: inline-block;
     width: 80%;
